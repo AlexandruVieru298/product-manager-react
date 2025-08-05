@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(-45deg, #1f0033, #0a0a0a, #1f0033, #0a0a0a);
+  background-size: 400% 400%;
+  animation: gradientMove 20s ease infinite;
+  color: #eee;
+  font-family: 'Orbitron', sans-serif;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background: linear-gradient(90deg, #B84FFF, #8A2BE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: rgba(34, 34, 34, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(138, 43, 226, 0.3);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(138, 43, 226, 0.6);
+  transform: translateY(-3px);
+}
+
+.btn-primary {
+  background-color: #8A2BE2;
+  border-color: #8A2BE2;
+}
+
+.btn-primary:hover {
+  background-color: #B84FFF;
+  border-color: #B84FFF;
+  box-shadow: 0 0 10px rgba(184, 79, 255, 0.6);
+}
+
+.btn-outline-secondary {
+  color: #8A2BE2;
+  border-color: #8A2BE2;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #8A2BE2;
+  color: white;
+  box-shadow: 0 0 10px rgba(184, 79, 255, 0.6);
+}
+
+.btn-outline-danger {
+  color: #FF4C4C;
+  border-color: #FF4C4C;
+}
+
+.btn-outline-danger:hover {
+  background-color: #FF4C4C;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 76, 76, 0.6);
+}
+
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.4em 0.6em;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+.badge.bg-success {
+  background-color: #4CAF50 !important;
+}
+
+.badge.bg-danger {
+  background-color: #FF4C4C !important;
+}
+
+.form-check-input:checked {
+  background-color: #8A2BE2;
+  border-color: #8A2BE2;
+}
+
+.form-control:focus {
+  border-color: #8A2BE2;
+  box-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+}

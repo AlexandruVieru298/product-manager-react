@@ -1,0 +1,15 @@
+.list-group-item {
+  background-color: #222;
+  color: #eee;
+  border-color: #444;
+  transition: 0.2s;
+}
+
+.list-group-item:hover {
+  background-color: rgba(138, 43, 226, 0.1);
+  transform: translateX(4px);
+}
+
+.list-group-item-warning {
+  background-color: rgba(138, 43, 226, 0.2);
+}
