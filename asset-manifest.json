@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/product-manager-react/static/css/main.19468561.css",
+    "main.js": "/product-manager-react/static/js/main.21955c7e.js",
+    "index.html": "/product-manager-react/index.html",
+    "main.19468561.css.map": "/product-manager-react/static/css/main.19468561.css.map",
+    "main.21955c7e.js.map": "/product-manager-react/static/js/main.21955c7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19468561.css",
+    "static/js/main.21955c7e.js"
+  ]
+}
