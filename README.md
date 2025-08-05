@@ -6,7 +6,7 @@ Fully responsive and **portfolio-ready**.
 ---
 
 ## 🚀 Live Demo
-🔗 [Click here to view]([https://alexandruvieru298.github.io/product-manager-react/))
+🔗 [Click here to view]([https://alexandruvieru298.github.io/product-manager-react/)
 
 ---
 
